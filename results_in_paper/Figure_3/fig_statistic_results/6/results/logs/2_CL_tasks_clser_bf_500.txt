@@ -1,0 +1,17 @@
+-----task:1-----
+minFDE: 0.9393876967014368m
+MR: 6.281833616298811%
+
+-----task:2-----
+minFDE: 0.8210955146142224m
+MR: 2.65089722675367%
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+The averaged FDE of all tasks: 0.8802416056578296 m
+The averaged Missing Rate of all tasks: 4.466365421526241 %
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ FDE backward transfer:0.006251209207001285
+ Missing Rate backward transfer: -0.0016977928692699512
