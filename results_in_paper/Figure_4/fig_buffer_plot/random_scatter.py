@@ -9,7 +9,6 @@ if model_name == 'plastic':
 else:
     threshold = 0.7
 
-# 读取文件
 with open(file_path, 'rb') as file:
     data = pickle.load(file)
 
