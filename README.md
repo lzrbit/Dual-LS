@@ -1,8 +1,5 @@
 # Dual-LS
-Code for "Complementary Learning System Empowers Online Continual Learning of Deep Neural Network", which has been submitted to **_Nature Machine Intelligence_**.
-
-
-
+Official Code for "Complementary Learning System Empowers Online Continual Learning of Deep Neural Network".
 
 # File Structure
 ```text
@@ -87,14 +84,9 @@ Dual-LS/
     └── map_vis_without_lanelet.py
 ```
 
-
-
-
-
-
 # Processed Data
 The experiments in this work are based on [INTERACTION dataset](https://interaction-dataset.com/).
-The processed data is available in this link for [download](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
+The processed data is available in this link for [Google Drive](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
 
 # Implementations
 ## Enviroment
