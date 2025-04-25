@@ -10,8 +10,9 @@ The source data of Figure 3.b is saved in  _/source\_data/Figure3b/_. Different 
 The source data of Figure 3.b is saved in  _/source\_data/Figure3c/_.
 
 # Visualization
-Run the Line_figure.py to visualize Figure 3.a 
+Run 
+```python Line_figure.py``` to visualize Figure 3.a 
 
-Run the Bar_FDE.py and Bar_MR.py to visualize Figure 3.b
+```python Bar_FDE.py``` and ```python Bar_MR.py``` to visualize Figure 3.b
 
-Run the matrix_figure.py to visualize Figure 3.c
+```python matrix_figure.py``` to visualize Figure 3.c
