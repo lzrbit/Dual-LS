@@ -7,7 +7,6 @@ def parse_file(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
     
-    # 提取所需的指标
     avg_fde_match = re.search(r"The averaged FDE of all tasks: ([\d\.]+) m", content)
     avg_mr_match = re.search(r"The averaged Missing Rate of all tasks: ([\d\.]+) %", content)
     fde_bt_match = re.search(r"FDE backward transfer:(-?[\d\.]+e?-?\d*)", content)
@@ -68,7 +67,6 @@ def extract_results(base_dir, num_experiments, task_num, model, buffer_size):
             with open(file_path, 'r') as file:
                 content = file.read()
 
-            # 使用正则表达式提取minFDE和MR的值
             pattern = re.compile(r'minFDE: ([\d.]+)m\nMR: ([\d.]+)%')
             matches = pattern.findall(content)
 
