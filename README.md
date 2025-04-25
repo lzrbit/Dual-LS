@@ -25,17 +25,7 @@ Dual-LS/
 │   └── testing_1_task.py
 ├── logging
 │   └── original_reference
-│       ├── EP0_target.npz
-│       ├── FT_target.npz
-│       ├── GL_target.npz
-│       ├── LN_target.npz
-│       ├── MA_target.npz
-│       ├── MT_target.npz
-│       ├── OF_target.npz
-│       ├── SR_target.npz
-│       ├── ZS0_target.npz
-│       ├── ZS2_target.npz
-│       └── val_index.pickle
+│       ├──...
 ├── mapfiles
 ├── results_in_paper
 │   ├── Figure_1
@@ -98,8 +88,8 @@ The processed data is available in this link for [Google Drive](https://drive.go
  pip install -r requirements.txt
 ```
 ## Configurations
-1. Before running codes, please revise "**root_dir**" and "**data_dir**" in "_./utils/args_loading.py_" to your local paths.
-2. Parameters for the networks can be also revised in "_./utils/args_loading.py_".
+1. Before running codes, please revise ```root_dir``` and ```data_dir``` in ```./utils/args_loading.py``` to your local paths.
+2. Parameters for the networks can be also revised in ```./utils/args_loading.py```.
 
 
 ## Key Parameters for running the experiments
