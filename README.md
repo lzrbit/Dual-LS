@@ -109,9 +109,9 @@ After adding the Executable Permissions to the provided bash file (_bash_trainin
 ```
 
 # Visualization of Experimental Results
-We have uploaded source data and scripts in the folder ```results_in_paper``` for re-visualization our experimental results in the paper.
-Each sub-folder contains the source data and scripts to visualize one figure in the paper.
-Please check README.md files in each sub-folder in ```results_in_paper``` and run the code to obtain the figures.
+- We have uploaded source data and scripts in the folder ```results_in_paper``` for re-visualization our experimental results in the paper.
+- Each sub-folder contains the source data and scripts to visualize one figure in the paper.
+- Please check README.md files in each sub-folder in ```results_in_paper``` and run the code to obtain the figures.
 
 
 # Contact
