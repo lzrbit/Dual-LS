@@ -4,6 +4,8 @@ Please download these processed data into the relative file path _/recorded\_tra
 
 # Visualization
 Run python files in the folder _script_ for the visualization of Figure 2.a in the paper. Figure S1(a)-FigureS8(a) in the supplementary are also visulized based on these scripts.
-```python main_load_track_file.py
-  python main_visualize_data.py```
+
+```python main_load_track_file.py```
+
+```python main_visualize_data.py```
 
