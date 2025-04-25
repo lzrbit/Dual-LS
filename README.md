@@ -114,6 +114,12 @@ Each sub-folder contains the source data and scripts to visualize one figure in 
 Please check README.md files in each sub-folder in ```results_in_paper``` and run the code to obtain the figures.
 
 
+# Contact
+If you have any questions or suggestions, feel free to contatct our main contributors:
+- Zirui Li (ziruili.work.bit@gmail.com)
+- Yunlong Lin (yunlonglin@bit.edu.cn)
+
+
 # Acknowledgement
 This research is supported by the National Natural Science Foundation of China under Grant 52372405.
 
