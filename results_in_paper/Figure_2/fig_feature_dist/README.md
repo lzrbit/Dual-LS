@@ -4,13 +4,17 @@ The processed data is available in [BaiduCloudDisk](https://pan.baidu.com/s/1rVG
 
 # Visualization
 ## Figures 2.b and Figure 2.c in Paper
-Please download these processed data within the folder ```/cl\_dataset/``` here
+Please download these processed data within the folder ```/cl\_dataset/``` here, run
+
 ``` python statistic_interaction_multi.py``` for Figure2.b
+
 ``` python statistic_vel_multi.py``` for Figure 2.c.
 
 ## Figures in Supplementary Materials
 The subfigures (b) and (c) in Figure S1-S8 can be visualized by running
+
 ```python statistic_interaction_single.py```
+
 ```python statistic_vel_single.py.```
 
 ## Saving path
