@@ -1,3 +1,8 @@
+# Processed Data for Download
+Another two processed data files, including 8_reservoir_buffer_memory and 8_gss_buffer_memory can be downloaded from [Google Drive](https://drive.google.com/drive/folders/11kSWZMCyD2gGzbc1d4U4Jo4RM1yrUFPd?usp=sharing), or [Baidu Drive](https://pan.baidu.com/s/1hmGC7SwZ_FHCxRMM4m2IZg) (access code:h1yk).
+
+We will also upload these files as supplementary materials.
+
 # Source Data in Excel formats
 All source data in .csv or .xlsx formats can be checked in _source_data_.
 ## Experimental results in Figure 4.a
@@ -14,3 +19,6 @@ Run memory_plot.py for Figure 4.a
 Run sampled_matrix.py for Figure 4.b
 
 Run plot_total_loss.py for Figure 4.c
+
+
+
