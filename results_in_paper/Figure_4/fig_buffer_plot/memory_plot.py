@@ -93,7 +93,6 @@ plt.xlabel('training steps', fontsize = fontsize)
 plt.ylabel('memory samples', fontsize = fontsize)
 plt.xlim(0, bar_num)
 
-# 设置轴标签
 if buffer_name == 'gss':
     plt.title('Gradient-based diversity sampling strategy')
 else:
@@ -102,12 +101,11 @@ else:
 
 
 # add several xticks from 1 to all_num
-# 每 8 个点显示一个刻度，横坐标增大1
 x_ticks_positions = np.arange(0, bar_num, 8)  
-x_tick_labels = 100*np.arange(0, len(x_ticks_positions))  # 每 8 个点的标签值增大 1
+x_tick_labels = 100*np.arange(0, len(x_ticks_positions))  
 
-# 为了减少刻度密度，选择每隔 4 个刻度显示一个
-x_ticks_display_positions = x_ticks_positions[::50]  # 每隔 50 个刻度显示一个
+
+x_ticks_display_positions = x_ticks_positions[::50]  
 x_ticks_display_labels = x_tick_labels[::50]  
 
 plt.xticks(x_ticks_display_positions, x_ticks_display_labels, fontsize = fontsize)
