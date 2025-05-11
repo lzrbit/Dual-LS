@@ -1,5 +1,5 @@
 # Dual-LS
-Official Code for "**Complementary Learning System Empowers Online Continual Learning of Deep Neural Network**".
+Official Code for "**Complementary Learning System Empowers Online Continual Learning of Vehicle Motion Forecasting in Smart Cities**".
 
 
 # Dataset
