@@ -7,7 +7,6 @@ base_dir = "."  #
 num_experiments = 9  # 
 task_num = 8  
 
-# 收集所有实验组的数据
 # avg_fdes, avg_mrs, fde_bts, mr_bts = collect_metrics(base_dir, num_experiments, task_num, model, buffer_size)
 
 index_bf =[500, 1000, 2000, 4000]

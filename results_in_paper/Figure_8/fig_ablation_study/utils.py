@@ -1,7 +1,6 @@
 import re
 
 def extract_metrics(file_path):
-    # 定义用于提取指标的正则表达式
     fde_pattern = r"The averaged FDE of all tasks\s*:\s*(-?\d+\.\d+)"
     mr_pattern = r"The averaged Missing Rate of all tasks\s*:\s*(-?\d+\.\d+)"
     fde_bwt_pattern = r"FDE backward transfer\s*:\s*(-?\d+\.\d+)"
@@ -12,7 +11,6 @@ def extract_metrics(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
 
-        # 使用正则表达式匹配并提取指标值
         fde_match = re.search(fde_pattern, content)
         mr_match = re.search(mr_pattern, content)
         fde_bwt_match = re.search(fde_bwt_pattern, content)
@@ -25,6 +23,6 @@ def extract_metrics(file_path):
         if fde_bwt_match:
             metrics['FDE_BWT'] = float(fde_bwt_match.group(1))
         if mr_bwt_match:
-            metrics['MR_BWT'] = 100*float(mr_bwt_match.group(1)) #单位统一为%
+            metrics['MR_BWT'] = 100*float(mr_bwt_match.group(1)) 
 
     return metrics

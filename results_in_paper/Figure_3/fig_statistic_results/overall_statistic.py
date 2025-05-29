@@ -7,17 +7,14 @@ from utils import *
 
 
 
-# 配置参数
-base_dir = "."  # 基础目录路径
-experiment_idx = 0  # 实验组索引
-task_num = 5  # 任务数
-model = "clser"  # 模型方法名称  derppgssrev
-buffer_size = 2000  # buffer大小
+base_dir = "."  
+experiment_idx = 0  
+task_num = 5  
+model = "clser"  
+buffer_size = 2000  
 
-# 收集所有实验组的数据
 avg_fdes, avg_mrs, fde_bts, mr_bts = collect_metrics(base_dir, experiment_idx, task_num, model, buffer_size)
 
-# 计算并输出各项指标的Mean值和standard deviation
 if avg_fdes:
     mean_avg_fde, std_avg_fde = calculate_statistics(avg_fdes)
     print(f"Mean FDE of all tasks: {mean_avg_fde:.4f} m, standard deviation: {std_avg_fde:.4f}")

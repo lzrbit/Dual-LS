@@ -16,7 +16,7 @@ abs_dir = data_dir+'/'
 
 
 def store_interaction_loaders(self, scenario_id):
-    #JT2=MA+FT; JT3=JT2+LN; JT4=JT3+ZS2; JT5=JT4+OF; JT6=JT5+EP0; JT7=JT6+GL; JT8=JT7+ZS0; JT9=JT8+MT; JT10=JT9+SR
+    #JT2=MA+FT; JT3=JT2+LN; JT4=JT3+ZS2; JT5=JT4+OF; JT6=JT5+EP0; JT7=JT6+GL; JT8=JT7+ZS0
     scenario_info = {1:'JT2', 2:'JT3', 3:'JT4', 4:'JT5', 5:'JT6', 6:'JT7', 7:'JT8', 8:'JT9', 9:'JT10'}
     scenario_index = scenario_id ## choose scenario
     scenario_name = scenario_info[scenario_index]
